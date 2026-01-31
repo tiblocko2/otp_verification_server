@@ -1,0 +1,12 @@
+[package]
+name = "otp_verif_serv"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.8"
+dashmap = "6.1.0"
+rand = "0.9.2"
+serde = { version = "1.0.228", features = ["derive"] }
+tokio = { version = "1.49.0", features = ["full"] }
+tower = { version = "0.5.3", features = ["full"] }
