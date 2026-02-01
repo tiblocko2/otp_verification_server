@@ -1,2 +1,2 @@
 pub mod repository;
-pub mod inmemory;
+pub mod postgres;
